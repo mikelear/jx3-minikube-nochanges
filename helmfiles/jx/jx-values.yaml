@@ -30,6 +30,8 @@ jxRequirements:
     provider: minikube
   environments:
   - key: dev
+    owner: mikelear
+    repository: jx3-minikube-nochanges
   - key: staging
   - key: production
   ingress:
@@ -40,6 +42,8 @@ jxRequirements:
       email: ""
       enabled: false
       production: false
+  pipelineUser:
+    username: mikelear
   repository: bucketrepo
   secretStorage: vault
   vault: {}
